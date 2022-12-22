@@ -2,7 +2,7 @@ body {
     margin: 0;
 }
 
-.footer {
+footer {
     background-color: #252525;
     display: grid;
     grid-template-columns: 25% 20%;
@@ -11,9 +11,10 @@ body {
     /* border: 1px solid red; */
     align-items: center;
     padding: 1.5rem 0 1rem 0;
+    margin-bottom: 0;
 }
 
-.footer > * {
+footer > * {
     justify-content: center;
 }
 

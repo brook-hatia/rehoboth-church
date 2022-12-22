@@ -1,16 +1,19 @@
 import './App.css';
 import Header from "./components/Header.js"
-import Home from "./components/Home.js"
 import Footer from "./components/Footer.js"
-
-/* test import components */
+import Home from "./components/Home.js"
 import About from "./components/About.js"
+import Events from "./components/Events.js"
+import BibleStudy from "./components/Bible-Study.js"
+import Give from "./components/Give.js"
+import SupportEth from "./components/Support-Ethiopia.js"
+import SupportReh from "./components/Support-Rehoboth.js"
 
 function App() {
   return (
     <div>
       <Header/>
-      <About/>
+      <BibleStudy/>
       <Footer/>
     </div>
   );

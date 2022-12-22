@@ -4,10 +4,9 @@ import YouTubeIcon from '@mui/icons-material/YouTube';
 
 export default function Footer() {
     return (
-        <div className="footer">
+        <footer>
             <div>
                 <p>Rehoboth Church 2022. All right reserved</p>
-                
             </div>
 
             <div>
@@ -28,6 +27,6 @@ export default function Footer() {
                     
                 </div>
             </div>
-        </div>
+        </footer>
     )
 }

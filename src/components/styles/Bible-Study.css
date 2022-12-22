@@ -1,0 +1,69 @@
+.hero {
+    background: url("/public/images/Home/body-third.jpeg") no-repeat center;
+    background-size: cover;
+    background-blend-mode: multiply;
+    background-color: grey;
+    width: 100%;
+    text-align: center;
+    padding: 10rem 0;
+}
+
+.hero h2 {
+    font-size: 2rem;
+    color: #fd9f2c;
+    text-shadow: 3px 3px #333333;
+}
+
+.hero blockquote {
+    color: white;
+    font-size: 1.7rem;
+}
+
+.bible-body-first {
+    padding: 5rem;
+}
+.bible-body-first h2 {
+    text-align: center;
+    margin-bottom: 3rem;
+}
+
+.bible-body-first-discus {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 4rem;
+}
+
+.bible-body-first-discus p {
+    font-size: medium;
+}
+
+.bible-body-second {
+    background-color: #F5F5F5;
+    padding: 3rem;
+    text-align: center;
+}
+
+.bible-body-second-groups {
+    display: grid;
+    grid-template-columns: 30% 30%;
+    gap: 3rem;
+    justify-content: center;
+    padding: 1rem;
+}
+
+.bible-body-second-groups > * {
+    background-color: white;
+    border-radius: 1rem;
+    box-shadow: 0 0.2rem 0.5rem grey;
+    padding-bottom: 1rem;
+}
+
+.bible-body-second-groups p {
+    line-height: 3;
+}
+
+.bible-body-second-groups a {
+    background-color: #77d2ff;
+    padding: 2% 10%;
+    border-radius: 1rem;
+}
