@@ -1,6 +1,6 @@
 import "./styles/Bible-Study.css"
 
-export default function BibleStudy() {
+export default function Bible_Study() {
     return (
         <div>
             <Bodyfirst/>

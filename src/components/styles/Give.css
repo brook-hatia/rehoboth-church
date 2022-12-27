@@ -1,0 +1,99 @@
+
+
+.give-body-first > :nth-child(1){
+    text-align: center;
+}
+
+.give-body-first > :nth-child(1) > * {
+    font-size: large;
+    font-weight: bold;
+}
+
+.give-body-first > :nth-child(1) span {
+    font-size: medium;
+    font-weight: normal;
+}
+
+.give-options {
+    display: grid;
+    grid-template-columns: 49% 49%;
+    gap: 2%;
+    padding: 2rem 5rem;
+    justify-content: center;
+}
+
+.give-options > * {
+    border-radius: 1rem;
+    overflow: hidden;
+    box-shadow: 0 0 0.5rem grey;
+}
+
+.give-options a {
+    color: #73c6ff
+}
+
+.give-options > * > p, a {
+    font-size: 1rem;
+}
+
+.give-options > * > p {
+    line-height: 3rem;
+}
+
+.give-options-button {
+    text-align: center;
+    margin-top: -3rem;
+    margin-bottom: 2rem;
+}
+
+.give-options-button button {
+    background-color: #73c6ff;
+    color: white;
+    border: none;
+    border-radius: 0.3rem;
+    padding: 0.4rem 1rem;
+    width: 10rem;
+}
+
+.give-options > * {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.give-options > * > img {
+    object-fit: cover;
+    width: auto;
+    height: auto;
+}
+
+.give-body-second {
+    background-color: #e5f1f2;
+    padding: 3rem;
+}
+
+.give-body-second h1 {
+    margin: 0 0 3rem 4rem;
+}
+
+.give-body-second button {
+    background-color: #5aceff;
+    color: white;
+    border: none;
+    border-radius: 0.2rem;
+    padding: 1rem 3rem;
+    font-size: 1.2rem;
+}
+
+.gifts-list > *:nth-child(odd) {
+    background-color: #DAE5E5;
+}
+
+.gifts-list > * {
+    padding: 1rem 4rem;
+}
+
+.give-button-final {
+    text-align: center;
+}

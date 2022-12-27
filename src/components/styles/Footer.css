@@ -3,32 +3,23 @@ body {
 }
 
 footer {
-    background-color: #252525;
-    display: grid;
-    grid-template-columns: 25% 20%;
-    justify-content: center;
+    background-color: #151515;
+    display: flex;
+    justify-content: space-around;
     color: white;
-    /* border: 1px solid red; */
-    align-items: center;
-    padding: 1.5rem 0 1rem 0;
-    margin-bottom: 0;
 }
 
-footer > * {
-    justify-content: center;
+.footer-links,
+.footer-links > * {
+    display: flex;
 }
 
 .footer-links {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 7rem;
+    gap: 5rem;
 }
 
 .footer-links > * {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-}
-
-.footer-icon {
-    margin-top: -0.2rem;
+    display: flex;
+    gap: 0.5rem;
+    align-items: center;
 }

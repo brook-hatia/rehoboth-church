@@ -27,7 +27,7 @@ const Bodyfirst = () => {
             <video src="/videos/Home/sample-hero.mp4" ref={videoRef} loop muted/>
             <div className="Home-hero-items">
                 <h1>Welcome To Rehoboth</h1>
-                <button>More about Rehoboth</button>
+                <a href="/about"><button>More about Rehoboth</button></a>
             </div>
         </div>
     )

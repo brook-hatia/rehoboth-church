@@ -5,28 +5,19 @@ import YouTubeIcon from '@mui/icons-material/YouTube';
 export default function Footer() {
     return (
         <footer>
-            <div>
-                <p>Rehoboth Church 2022. All right reserved</p>
-            </div>
+            <p>@2022 Rehoboth Church. All right reserved</p>
 
-            <div>
-                <div className="footer-links">
+            <div className="footer-links">
                     <div>
-                        <div className="footer-icon">
-                            <FacebookIcon/>
-                        </div>
+                        <FacebookIcon/>
                         <p>Facebook</p>
                     </div>
 
                     <div>
-                        <div className="footer-icon">
-                            <YouTubeIcon/>
-                        </div>
+                        <YouTubeIcon/>
                         <p>YouTube</p>
                     </div>
-                    
                 </div>
-            </div>
         </footer>
     )
 }
