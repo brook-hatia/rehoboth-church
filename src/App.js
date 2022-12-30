@@ -10,6 +10,7 @@ import Kids from "./components/Kids.js"
 import Give from "./components/Give.js"
 import SupportEth from "./components/Support-Ethiopia.js"
 import SupportReh from "./components/Support-Rehoboth.js"
+import GiveNow from "./components/GiveNow.js"
 import { Route, Routes } from 'react-router-dom';
 
 function App() {
@@ -26,6 +27,7 @@ function App() {
         <Route path='/give' element=<Give/>/>
         <Route path='/give/support-ethiopia' element=<SupportEth/>/>
         <Route path='/give/support-rehoboth' element=<SupportReh/>/>
+        <Route path='/give/give-now' element=<GiveNow/>/>
       </Routes>
       <Footer/>
     </div>
