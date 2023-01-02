@@ -59,6 +59,7 @@ nav > * {
 .header-links a {
     color: white;
     font-weight: bold;
+    padding: 2rem 0;
 }
 
 .header-links a:hover {
@@ -72,22 +73,29 @@ nav > * {
     text-underline-offset: 5px;
 }
 
-.dropdown-name {
-    color: white;
-    font-size: 1rem;
-    font-weight: bold;
-    background: none;
-    border: none;
+.dropdown-head {
+    display: flex;
+    align-items: center;
 }
 
 .dropdown-items {
-    border: 1px solid red;
+    position: absolute;
     display: flex;
+    justify-content: stretch;
     flex-direction: column;
-    gap: 0.5rem;
     text-align: center;
-    justify-content: center;
-    margin-top: 4rem;
     z-index: 2;
-    background-color: grey;
+    top: 4rem;
+    /* background-color: rgb(118, 118, 118); */
+}
+
+.dropdown-items > a {
+    width: 100%;
+    padding: 0.5rem 1rem;
+    background-color: rgb(118, 118, 118);
+}
+
+.dropdown-items > a:hover {
+    color: #ef9c0c;
+    background-color: #efefef;
 }

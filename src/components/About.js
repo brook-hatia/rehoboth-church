@@ -1,7 +1,8 @@
-import { useState } from "react"
+import { React, useState } from "react"
 import "./styles/About.css"
 import ExpandLessIcon from '@mui/icons-material/ExpandLess';
 import ExpandMoreIcon from '@mui/icons-material/ExpandMore';
+import NextImg from "./NextImg";
 
 export default function About() {
     return (
@@ -16,8 +17,19 @@ export default function About() {
 }
 
 const Hero = () => {
+
+    const img = '/images/Home/body-third.jpeg'
+    const imgArray = [ 
+        '/images/Home/body-third.jpeg',
+        '/images/About/sample2.jpeg',
+        '/images/About/sample3.jpeg'
+    ]
+
+    const index = NextImg(imgArray.length);
+
+
     return (
-        <div className="Hero">
+        <div className="Hero" style={{backgroundImage: `url(${imgArray[index]})` }}>
             <h2>
                 Rehoboth church wants to make a 
                 lasting difference in your life, in our
@@ -197,8 +209,8 @@ const Bodysecond = () => {
                 every Wednesday
             </p>
 
-            <form action="https://formsubmit.co/0ce161e33681d59756bfa75de4c02ffa" method="POST">
-                <p>Elements with <span style={{color: "red"}}>*</span> are required</p>
+            <form action="https://formsubmit.co/4c00628244d60e8246c86a5cb82f749e" method="POST">
+                <p>Fields with <span style={{color: "red"}}>*</span> are required</p>
                 <label for="name"><span style={{color: "red"}}>*</span> Type your name:</label>
                 <input name="name" className="name" type="text" placeholder="Name" required/>
 

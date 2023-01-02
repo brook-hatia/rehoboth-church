@@ -52,29 +52,34 @@ video {
     font-size: large;
 }
 
-.Body-second-right-top {
-    /* border: 1px solid red; */
-    justify-content: center;
-    display: flex;
+.Body-second-right {
+    text-align: center;
 }
 
+.Body-second-right-top {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: auto;
+}
 
-.Body-second-right button {
+.Body-second-right-top button {
     position: absolute;
-    text-align: center;
     background: none;
     color: white;
     border: none;
     /* border: 1px solid red; */
-    height: 25vw;
+    height: 45%;
+    width: 45%;
+}
+
+.Body-second-right-top button:hover {
+    cursor: pointer;
 }
 
 .Body-second-right button > * {
-    font-size: 5rem;
-}
-
-.Body-second-right-bottom {
-    text-align: center;
+    font-size: 7rem;
 }
 
 .Body-second-right-bottom p {

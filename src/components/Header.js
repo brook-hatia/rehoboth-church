@@ -1,10 +1,29 @@
-import { React } from "react";
+import { React, useState } from "react";
 import { useLocation } from "react-router-dom";
-import { Dropdown} from "react-bootstrap"
 import "../components/styles/Header.css"
+import Dropdown from "./Dropdown.js"
+import ArrowDropDownIcon from '@mui/icons-material/ArrowDropDown';
 
 export default function Header() {
+    const [hover, setHover] = useState(false);
     const location = useLocation();
+
+    const arrayList = () => [
+        {
+            path: "#",
+            title: "Worship"
+        },
+
+        {
+            path: "/ministries/bible-study",
+            title: "Bible Study"
+        },
+
+        {
+            path: "/ministries/kids",
+            title: "Kids"
+        }
+    ]
 
     return (
         <nav>
@@ -22,13 +41,10 @@ export default function Header() {
                 <a className={location.pathname === '/about'? 'active': ''} href="/about">About</a>
                 <a className={location.pathname === '/events'? 'active':''} href="/events">Events</a>
                 
-                <Dropdown>
-                    <Dropdown.Toggle className="dropdown-name">Ministries</Dropdown.Toggle>
-                    <Dropdown.Menu className="dropdown-items">
-                        <Dropdown.Item href="/ministries/bible-study">Bible Study</Dropdown.Item>
-                        <Dropdown.Item href="/ministries/kids">Kids</Dropdown.Item>
-                    </Dropdown.Menu>
-                </Dropdown>
+                <a  className= "dropdown-head" href="" onMouseEnter={() => setHover(true)}
+                            onMouseLeave={() => setHover(false)}>Ministries <ArrowDropDownIcon/>
+                    { hover === true ? Dropdown (arrayList(), "dropdown-items") : "" }
+                </a>
                 <a className={location.pathname === '/give'? 'active':''} href="/give">Give</a>
             </div>
         </nav>

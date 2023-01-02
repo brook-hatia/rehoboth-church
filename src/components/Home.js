@@ -1,6 +1,4 @@
-import { useEffect, useRef } from "react"
-import { Icon } from '@material-ui/core';
-
+import { useState, useEffect, useRef } from "react"
 import PlayArrowIcon from '@mui/icons-material/PlayArrow';
 
 import "./styles/Home.css"
@@ -35,9 +33,11 @@ const Bodyfirst = () => {
 
 const BodySecond = () => {
     const secondVideoRef = useRef(null);
+    const [icon, setIcon] = useState("play");
 
     const playSecondVideo = () => {
-        secondVideoRef.current.play();
+        setIcon(icon === "play" ? "pause" : "play")
+        icon === "play" ? secondVideoRef.current.play() : secondVideoRef.current.pause();
     }
 
     return (
@@ -53,15 +53,16 @@ const BodySecond = () => {
                 <div className="Body-second-right-top">
                     <video src="/videos/Home/sample-pastor.mp4" ref={secondVideoRef}/>
                     <button onClick={playSecondVideo}>
-                        <PlayArrowIcon/>
+                        {icon === "play" ? <PlayArrowIcon/> : null}
                     </button>
                 </div>
 
                 <div className="Body-second-right-bottom">
                     <p>A message from our Pastor</p>
                 </div>
-                
             </div>
+
+            
         </div>
     )
 }
