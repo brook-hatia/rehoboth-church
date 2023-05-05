@@ -39,7 +39,7 @@ export default function Header() {
 
             <div className="header-links">
                 <a className={location.pathname === 'rehoboth-church/about'? 'active': ''} href="rehoboth-church/about">About</a>
-                <a className={location.pathname === 'rehoboth-church/events'? 'active':''} href="rehoboth-church/events">Events</a>
+                <a className={location.pathname === 'rehoboth-church/events'? 'active':''} href="https://brook-hatia.github.io/rehoboth-church/events">Events</a>
                 
                 <a  className= "dropdown-head" href="" onMouseEnter={() => setHover(true)}
                             onMouseLeave={() => setHover(false)}>Ministries <ArrowDropDownIcon/>
