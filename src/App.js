@@ -21,7 +21,7 @@ function App() {
         <Route path='rehoboth-church/' element=<Home/>/>
         <Route path='rehoboth-church/about' element=<About/>/>
         <Route path='rehoboth-church/sermons' element=<Sermons/>/>
-        <Route path='https://brook-hatia.github.io/rehoboth-church/events' element=<Events/>/>
+        <Route path='rehoboth-church/events' element=<Events/>/>
         <Route path='rehoboth-church/ministries/bible-study' element=<BibleStudy/>/>
         <Route path='rehoboth-church/ministries/kids' element=<Kids/>/>
         <Route path='rehoboth-church/give' element=<Give/>/>
