@@ -18,16 +18,16 @@ function App() {
     <div>
       <Header/>
       <Routes>
-        <Route path='/rehoboth-church/' element=<Home/>/>
-        <Route path='/rehoboth-church/about' element=<About/>/>
-        <Route path='/rehoboth-church/sermons' element=<Sermons/>/>
-        <Route path='/rehoboth-church/events' element=<Events/>/>
-        <Route path='/rehoboth-church/ministries/bible-study' element=<BibleStudy/>/>
-        <Route path='/rehoboth-church/ministries/kids' element=<Kids/>/>
-        <Route path='/rehoboth-church/give' element=<Give/>/>
-        <Route path='/rehoboth-church/give/support-ethiopia' element=<SupportEth/>/>
-        <Route path='/rehoboth-church/give/support-rehoboth' element=<SupportReh/>/>
-        <Route path='/rehoboth-church/give/give-now' element=<GiveNow/>/>
+        <Route path='rehoboth-church/' element=<Home/>/>
+        <Route path='rehoboth-church/about' element=<About/>/>
+        <Route path='rehoboth-church/sermons' element=<Sermons/>/>
+        <Route path='rehoboth-church/events' element=<Events/>/>
+        <Route path='rehoboth-church/ministries/bible-study' element=<BibleStudy/>/>
+        <Route path='rehoboth-church/ministries/kids' element=<Kids/>/>
+        <Route path='rehoboth-church/give' element=<Give/>/>
+        <Route path='rehoboth-church/give/support-ethiopia' element=<SupportEth/>/>
+        <Route path='rehoboth-church/give/support-rehoboth' element=<SupportReh/>/>
+        <Route path='rehoboth-church/give/give-now' element=<GiveNow/>/>
       </Routes>
       <Footer/>
     </div>
