@@ -10,24 +10,24 @@ export default function Header() {
 
     const arrayList = () => [
         {
-            path: "#",
+            path: "/rehoboth-church/events#",
             title: "Worship"
         },
 
         {
-            path: "/ministries/bible-study",
+            path: "/rehoboth-church/ministries/bible-study",
             title: "Bible Study"
         },
 
         {
-            path: "/ministries/kids",
+            path: "/rehoboth-church/ministries/kids",
             title: "Kids"
         }
     ]
 
     return (
         <nav>
-            <a href="/" className="header-logo">
+            <a href="/rehoboth-church/" className="header-logo">
                     <div className="header-logo-img">
                         <img src="/images/Home/logo.png" alt="Rehoboth Evangelical Ethiopian Church logo"/>
                     </div>
@@ -38,14 +38,14 @@ export default function Header() {
             </a>
 
             <div className="header-links">
-                <a className={location.pathname === '/about'? 'active': ''} href="/about">About</a>
-                <a className={location.pathname === '/events'? 'active':''} href="/events">Events</a>
+                <a className={location.pathname === '/rehoboth-church/about'? 'active': ''} href="/rehoboth-church/about">About</a>
+                <a className={location.pathname === '/rehoboth-church/events'? 'active':''} href="/rehoboth-church/events">Events</a>
                 
                 <a  className= "dropdown-head" href="" onMouseEnter={() => setHover(true)}
                             onMouseLeave={() => setHover(false)}>Ministries <ArrowDropDownIcon/>
                     { hover === true ? Dropdown (arrayList(), "dropdown-items") : "" }
                 </a>
-                <a className={location.pathname === '/give'? 'active':''} href="/give">Give</a>
+                <a className={location.pathname === '/rehoboth-church/give'? 'active':''} href="/rehoboth-church/give">Give</a>
             </div>
         </nav>
     )
