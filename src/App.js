@@ -18,7 +18,7 @@ function App() {
     <div>
       <Header/>
       <Routes>
-        <Route path='/' element=<Home/>/>
+        <Route path='/rehoboth-church/' element=<Home/>/>
         <Route path='/about' element=<About/>/>
         <Route path='/sermons' element=<Sermons/>/>
         <Route path='/events' element=<Events/>/>
