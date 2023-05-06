@@ -32,7 +32,7 @@ function App() {
         <Route path='/give/give-now' element=<GiveNow/>/>
       </Routes>
     </HashRouter>
-    <BrowserRouter/>
+    </BrowserRouter>
       <Footer/>
     </div>
   );
