@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/rehoboth-church/static/css/main.be9eb9b1.css",
-    "main.js": "/rehoboth-church/static/js/main.55109e0c.js",
+    "main.js": "/rehoboth-church/static/js/main.ae9f7464.js",
     "static/media/body-third.jpeg": "/rehoboth-church/static/media/body-third.7bc170e7d68b45dbfb44.jpeg",
     "index.html": "/rehoboth-church/index.html",
     "main.be9eb9b1.css.map": "/rehoboth-church/static/css/main.be9eb9b1.css.map",
-    "main.55109e0c.js.map": "/rehoboth-church/static/js/main.55109e0c.js.map"
+    "main.ae9f7464.js.map": "/rehoboth-church/static/js/main.ae9f7464.js.map"
   },
   "entrypoints": [
     "static/css/main.be9eb9b1.css",
-    "static/js/main.55109e0c.js"
+    "static/js/main.ae9f7464.js"
   ]
 }
