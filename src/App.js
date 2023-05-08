@@ -11,7 +11,7 @@ import Give from "./components/Give.js"
 import SupportEth from "./components/Support-Ethiopia.js"
 import SupportReh from "./components/Support-Rehoboth.js"
 import GiveNow from "./components/GiveNow.js"
-import { Route, Routes } from 'react-router-dom';
+import { Route, Routes} from 'react-router-dom';
 
 function App() {
   return (
