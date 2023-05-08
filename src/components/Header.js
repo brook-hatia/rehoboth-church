@@ -10,17 +10,17 @@ export default function Header() {
 
     const arrayList = () => [
         {
-            path: "/events#",
+            path: "/rehoboth-church/ministries/worship",
             title: "Worship"
         },
 
         {
-            path: "/ministries/bible-study",
+            path: "/rehoboth-church/ministries/bible-study",
             title: "Bible Study"
         },
 
         {
-            path: "/ministries/kids",
+            path: "/rehoboth-church/ministries/kids",
             title: "Kids"
         }
     ]
