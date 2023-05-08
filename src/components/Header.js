@@ -38,14 +38,14 @@ export default function Header() {
             </a>
 
             <div className="header-links">
-                <a className={location.pathname === '/about'? 'active': ''} href="/about">About</a>
-                <a className={location.pathname === '/events'? 'active':''} href="/events">Events</a>
+                <a className={location.pathname === '/about'? 'active': ''} href="/rehoboth-church/about">About</a>
+                <a className={location.pathname === '/events'? 'active':''} href="/rehoboth-church/events">Events</a>
                 
                 <a  className= "dropdown-head" href="" onMouseEnter={() => setHover(true)}
                             onMouseLeave={() => setHover(false)}>Ministries <ArrowDropDownIcon/>
                     { hover === true ? Dropdown (arrayList(), "dropdown-items") : "" }
                 </a>
-                <a className={location.pathname === '/give'? 'active':''} href="/give">Give</a>
+                <a className={location.pathname === '/give'? 'active':''} href="/rehoboth-church/give">Give</a>
             </div>
         </nav>
     )
