@@ -25,7 +25,7 @@ const Give_Body_first = () => {
                     <p>
                     Support Rehoboth by making donations to 
                     support the church.<br/>
-                    <a href="/give/support-rehoboth">Learn More &gt;</a>
+                    <a href="/rehoboth-church/give/support-rehoboth">Learn More &gt;</a>
                     </p>
                     <br/>
                     <div className="give-options-button">
@@ -38,7 +38,7 @@ const Give_Body_first = () => {
                     <p>
                         We want to support our sister church located in
                         Addis Ababa, Ethiopia.<br/>
-                        <a href="/give/support-ethiopia">Learn More &gt;</a>
+                        <a href="/rehoboth-church/give/support-ethiopia">Learn More &gt;</a>
                     </p>
                     <br/>
                     <div className="give-options-button">
